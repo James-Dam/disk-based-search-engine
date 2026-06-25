@@ -1,3 +1,41 @@
-DEV
-index_output
-developer.zip
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment files
+.env
+.env.*
+
+# Logs and runtime files
+*.log
+logs/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated search index output
+index_output/
+
+# Local course corpus and large dataset archives
+DEV/
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
