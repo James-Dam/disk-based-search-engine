@@ -1,2 +1,4 @@
 beautifulsoup4>=4.12
+fastapi>=0.115
 nltk>=3.8
+uvicorn>=0.30
